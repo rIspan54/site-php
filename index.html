@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="font-circe-master/css/font-circe.css">
+    <link rel="stylesheet" href="style.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js" type="text/javascript"></script>
+	<script src="package/dist/sweetalert2.all.min.js"></script>
+	<script src="scripts.js"></script>
+    <title>Магазин</title>
+</head>
+
+<body>
+    <div class="main">        
+        <div class="main">
+            <div class="block_photo">
+                <img class="photo" src="img/photo_2.png">
+                <img class="photo" src="img/photo_3.png">
+                <img class="photo" src="img/photo_4.png">
+            </div>
+                <img src="img/photo_1.png" id="main"
+                 style="padding-left: 30px; margin-top: 40px; padding-right: 90px; height: 492px;">
+            
+            <div style="margin-top: 40px;">
+            <div class="text">РУБАШКА MEDICINE</div>
+            <div>
+                <a href="#" class="link">Рубашки Medicine</a>
+                <a href="#" class="link">Все модели Medicine</a>
+                <a href="#" class="link">Рубашки</a>
+            </div>
+            <div class="cost">
+                <div style="padding-right: 40px; color: #9a9b9b;">
+                    <s style="color: #bfbebe; padding-right: 10px;">2 699</s> 2 499 ₽</div>
+                <div><b>2 227 ₽</b> — с промокодом</div>
+            </div>
+            <div class=delivery>
+                <div><img style="padding-left: 20px; padding-right: 15px; padding-top: 14px;" src="img/del_1.png">В наличи в магазине <a href="#">Lamoda</a></div>
+                <div><img style="padding-left: 20px; padding-right: 15px; padding-top: 12px;" src="img/del_2.png">Бесплатная доставка</div>
+            </div>
+            <div class="produce_info">
+                <input type="button" style="color: #d0d1d1;" id="minus" value="-">
+                <input type="text" onkeyup="this.value = this.value.replace (/\D/gi, '').replace (/^0+/, '')" value="1" id="count" />
+                <input type="button" id="plus" value="+">
+            </div>
+            <div>
+                <input value="КУПИТЬ" type="button" name="shop" id="notification">
+                <input value="В ИЗБРАННОЕ" type="button" name=like>
+            </div>
+            <div class="info">Рубашка Medicine выполнена из вискозной ткани с клетчатым узором.<br>
+                 Детали: прямой крой; отложной воротник; планка и манжеты на<br> пуговицах; 
+                 карман на груди.
+            </div>
+            <div class="repost">
+                <label style="vertical-align: middle;">ПОДЕЛИТЬСЯ:</label>
+                <a href="#"><img style="margin-left: 20px; vertical-align: middle;" src="img/vk.png"></a>
+                <a href="#"><img style="margin-left: 10px; vertical-align: middle" src="img/g.png"></a>
+                <a href="#"><img style="margin-left: 10px; vertical-align: middle" src="img/f.png"></a>
+                <a href="#"><img style="margin-left: 10px; vertical-align: middle" src="img/t.png"></a>
+                <img style="margin-left: 10px; vertical-align: middle" src="img/square.png" title="123">
+            </div> 
+        </div>
+    </div>
+</body>
+</html>

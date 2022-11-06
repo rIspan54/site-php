@@ -1,0 +1,214 @@
+@import url('http://fonts.cdnfonts.com/css/myriad-pro');
+
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+a:active,
+a:hover,
+a {
+  text-decoration: none;
+  color: #4284e9;
+}
+
+.text {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-size: 24px;
+    letter-spacing: 1.8px;
+    font-family: "Circe Extra Bold";
+}
+
+.photo {
+    padding-left: 25px;
+    padding-top: 40px;
+}
+
+.main
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.block_photo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.produce_info {
+    display: flex;
+    width: 30px;
+    height: 39px;
+    margin-bottom: 20px;
+}
+
+input[id=minus],
+input[id=plus]{
+    border-radius: 0;
+    height: 39px;
+    border: 1px solid #d0d1d1;
+}
+
+input[id=count] {
+    width: 60px;
+    height: 35px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 0;
+    border: 1px solid #d0d1d1;
+}
+
+.delivery {
+    width: 350px;
+    height: 65px;
+    background-color: #f4f4f4;
+    font-family: "Circe Light";
+    font-size: 13px;
+    margin-bottom: 50px;
+}
+
+.cost {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: "Circe Regular";
+    font-size: 18px;
+}
+
+.link {
+    font-family: "Myriad Pro";
+    font-weight: 300;
+    font-size: 14px;
+    padding-right: 27px;
+    padding-bottom: 50px;
+}
+
+.repost {
+    font-family: "Circe Light";
+    font-size: 14px;
+	  vertical-align: middle;
+
+}
+
+.info {
+    width: 412px;
+    font-family: "Myriad Pro";
+    font-weight: 300;
+    font-size: 14px;
+    margin-bottom: 45px;
+}
+
+.categ {
+    font-size:30px;
+}
+
+input {
+    height: 40px;
+    width: 165px;
+    font-family: "Circe Bold";
+    font-size: 13px;
+    margin-bottom: 45px;
+}
+
+input[name=shop] {
+    border-style: solid;
+    margin-right: 25px;
+    background-color: #006be5;
+    border-color: #006be5;
+    color: white;
+}
+
+input[name=shop]:hover {
+    background-color: #2885ee;
+    transition: 0.3s;
+}
+
+input[name=like] {
+    border-style: solid;
+    background-color: white;
+    border-color: #d9d9d9;
+}
+
+input[name=like]:hover {
+    background-color: #e7e7e7;
+    transition: 0.3s;
+}
+
+p[id=data] {
+    text-align: right;
+    padding-right: 10px;
+}
+
+h2 {
+    padding-bottom: 5px;
+}
+
+.square {
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    padding-bottom: 40px;
+    font-size: 26px;
+    height: 220px;
+    width: 380px;
+    border: 3px black solid;
+    border-color: #4a8ea8;
+    border-radius: 5px;
+    background-color: #dce8ee;
+}
+
+p[name="3"] {
+    background-color: #269f5d;
+    color:#ffffff;
+}
+
+p[name="1"] {
+    background-color: #65c2dc;
+    color: #333333;
+}
+
+p[name="2"] {
+    background-color: #eebc40;
+    color:#ffffff;
+}
+
+img[id=card] {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    width: 120px;
+    height: 120px;
+    margin: 0;
+    font-size: 100px;
+    text-align: center;
+}
+
+h4 {
+    padding-left: 10px;
+    transform-origin: left bottom 0;
+}
+
+.container {
+    background-color: gainsboro;
+    margin-left: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+    width: 520px;
+    height: 210px;
+    display: flex;
+}
+
+.object {
+    width: 160px;
+    height: 200px;
+    border: 1px black solid;
+    background-color: white;
+    margin-right: 14px;
+}
