@@ -108,11 +108,11 @@
             <div style="margin-top: 30px; margin-left:130px;">
             <?php
               $id_pr = (int)($id/12);
-              if ($id_pr/12!=0) {
+              if ($id%12!=0) {
                 $id_pr ++;
               }
               if ($id_pr == 0) {
-                $id_pr ++;
+                $id_pr = 1;
               }
               echo '<a href="/products.php?cat_id='.$cat_id.'&page=' . $id_pr . '" style="margin-top: 130px; font-size: 25px;">Назад</a>';
             ?>
